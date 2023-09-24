@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1320px] mx-auto flex items-center justify-between mt-10">
+    <div className="max-w-[1320px] mx-auto flex items-center justify-between pt-10">
       <div>
         <img src="/images/Logo.png" alt="" />
       </div>
-      <ul className="flex gap-10">
+      <ul className="flex gap-10 font-bold text-xl">
         <li>
           <NavLink
             to="/"
