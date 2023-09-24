@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "image": "food1.jpg",
+    "image": "./images/food.png",
+    "image_2": "./images/food-rec.png",
     "title": "Provide Food for Families",
     "category": "food", 
     "category_bg_color": "orange-200",
@@ -11,7 +12,8 @@
   },
   {
     "id": 2,
-   "image": "food2.jpg",
+    "image": "./images/food.png",
+    "image_2": "./images/food-rec.png",
    "title": "Support Child Hunger Initiatives",    
    "category": "food",
    "category_bg_color": "orange-200",
@@ -21,7 +23,8 @@
   },
   {
     "id": 3,
-    "image": "food3.jpg",
+    "image": "./images/food.png",
+    "image_2": "./images/food-rec.png",
     "title": "Sponsor Local Food Banks",
     "category": "food",
     "category_bg_color": "orange-200",
@@ -31,7 +34,8 @@
   },
   {
     "id": 4, 
-    "image": "food4.jpg",
+    "image": "./images/food.png",
+    "image_2": "./images/food-rec.png",
     "title": "Grow Urban Vegetable Gardens",
     "category": "food",
     "category_bg_color": "orange-200",  
@@ -41,7 +45,8 @@
   },
   {
     "id": 5,
-    "image": "clothing1.jpg",
+    "image": "./images/clothing.png",
+    "image_2": "./images/clothing-rec.png",
     "title": "Provide School Uniforms",
     "category": "clothing",
     "category_bg_color": "green-200",
@@ -51,7 +56,8 @@
   },
   {
     "id": 6,
-    "image": "clothing2.jpg",  
+    "image": "./images/clothing.png",
+    "image_2": "./images/clothing-rec.png",
     "title": "Outfit Children for Winter",
     "category": "clothing",
     "category_bg_color": "green-200",
@@ -61,7 +67,8 @@
   },
   {
     "id": 7,
-    "image": "clothing3.jpg",
+    "image": "./images/clothing.png",
+    "image_2": "./images/clothing-rec.png",
     "title": "Support Clothing Drives",
     "category": "clothing",
     "category_bg_color": "green-200",
@@ -71,7 +78,8 @@
   },
   {
     "id": 8,
-    "image": "clothing4.jpg",
+    "image": "./images/clothing.png",
+    "image_2": "./images/clothing-rec.png",
     "title": "Outfit Job Seekers",    
     "category": "clothing",
     "category_bg_color": "green-200",  
@@ -81,7 +89,8 @@
   },
   {
     "id": 9,  
-    "image": "education1.jpg",
+    "image": "./images/education.png",
+    "image_2": "./images/education-rec.png",
     "title": "Provide School Supplies",
     "category": "Education",
     "category_bg_color": "red-200",
@@ -91,7 +100,8 @@
   },
   {
     "id": 10,
-    "image": "education2.jpg",
+    "image": "./images/education.png",
+    "image_2": "./images/education-rec.png",
     "title": "Support Arts Education",
     "category": "Education",   
     "category_bg_color": "red-200",
@@ -101,7 +111,8 @@
   },
   {
     "id": 11,
-    "image": "education3.jpg",
+    "image": "./images/education.png",
+    "image_2": "./images/education-rec.png",
     "title": "Fund After-School Programs",
     "category": "Education",
     "category_bg_color": "red-200",
@@ -111,7 +122,8 @@
   },
   {  
     "id": 12,
-    "image": "education4.jpg",
+    "image": "./images/education.png",
+    "image_2": "./images/education-rec.png",
     "title": "Provide Internet Access",
     "category": "Education",
     "category_bg_color": "red-200",
@@ -121,7 +133,8 @@
   },
   {
     "id": 13,   
-    "image": "health1.jpg",
+    "image": "./images/health.png",
+    "image_2": "./images/health-rec.png",
     "title": "Provide Medical Supplies",
     "category": "Health",
     "category_bg_color": "blue-200",
@@ -131,7 +144,8 @@
   },
   {
     "id": 14,
-    "image": "health2.jpg",
+    "image": "./images/health.png",
+    "image_2": "./images/health-rec.png",
     "title": "Support Health Education",
     "category": "Health",
     "category_bg_color": "blue-200",
@@ -141,7 +155,8 @@
   },
   {
     "id": 15,
-    "image": "health3.jpg",
+    "image": "./images/health.png",
+    "image_2": "./images/health-rec.png",
     "title": "Fund Mobile Health Clinics",
     "category": "Health",
     "category_bg_color": "blue-200",
@@ -151,7 +166,8 @@
   },
   {
     "id": 16,
-    "image": "health4.jpg",
+    "image": "./images/health.png",
+    "image_2": "./images/health-rec.png",
     "title": "Provide Immunizations",
     "category": "Health",    
     "category_bg_color": "blue-200",
