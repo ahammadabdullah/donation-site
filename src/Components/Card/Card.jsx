@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/no-unescaped-entities */
 const Card = ({ data }) => {
   const {
@@ -31,19 +33,21 @@ const Card = ({ data }) => {
 
   return (
     <div>
-      <div className="relative flex max-w-[312px] flex-col rounded-lg bg-white bg-clip-border text-gray-700 ">
-        <div className="relative m-0 overflow-hidden rounded-t-lg bg-transparent bg-clip-border text-gray-700 ">
-          <img className="h-[194px]" src={image_2} alt={title} />
-        </div>
-        <div>
-          <div style={bgStyle}>
-            <button disabled style={btnStyle}>
-              {category}
-            </button>
-            <h4 style={titleStyle}>{title}</h4>
+      <Link to={`/home/${id}`}>
+        <div className="relative flex max-w-[312px] flex-col rounded-lg bg-white bg-clip-border text-gray-700 ">
+          <div className="relative m-0 overflow-hidden rounded-t-lg bg-transparent bg-clip-border text-gray-700 ">
+            <img className="h-[194px]" src={image_2} alt={title} />
+          </div>
+          <div>
+            <div style={bgStyle}>
+              <button disabled style={btnStyle}>
+                {category}
+              </button>
+              <h4 style={titleStyle}>{title}</h4>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };
