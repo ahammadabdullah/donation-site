@@ -4,7 +4,9 @@ import { Outlet } from "react-router-dom";
 const SecondLayout = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <div className="pb-10">
+        <Navbar></Navbar>
+      </div>
       <div className="max-w-[1320px] mx-auto">
         <Outlet></Outlet>
       </div>
