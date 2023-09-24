@@ -5,7 +5,8 @@
     "image_2": "./images/food-rec.png",
     "title": "Provide Food for Families",
     "category": "food", 
-    "category_bg_color": "orange-200",
+    "category_bg_color": "orange-100",
+    "category_btn_color": "orange-200",
     "text_color": "orange-400",
     "description": "Your donation will go towards providing healthy meal kits for families in need during these difficult times.",
     "amount": 50
@@ -16,7 +17,8 @@
     "image_2": "./images/food-rec.png",
    "title": "Support Child Hunger Initiatives",    
    "category": "food",
-   "category_bg_color": "orange-200",
+   "category_bg_color": "orange-100",
+   "category_btn_color": "orange-200",
    "text_color": "orange-400",
    "description": "With your help, we can continue our programs providing school lunches and weekend nutrition for hungry children in our community.",
    "amount": 100
@@ -27,7 +29,8 @@
     "image_2": "./images/food-rec.png",
     "title": "Sponsor Local Food Banks",
     "category": "food",
-    "category_bg_color": "orange-200",
+    "category_bg_color": "orange-100",
+    "category_btn_color": "orange-200",
     "text_color": "orange-400",
     "description": "Your contribution will assist our efforts to stock and operate food banks across the city, serving thousands in need.",
     "amount": 250   
@@ -38,7 +41,8 @@
     "image_2": "./images/food-rec.png",
     "title": "Grow Urban Vegetable Gardens",
     "category": "food",
-    "category_bg_color": "orange-200",  
+    "category_bg_color": "orange-100",  
+    "category_btn_color": "orange-200",
     "text_color": "orange-400",
     "description": "You can help create sustainable urban gardens providing fresh produce for inner-city communities lacking access.",
     "amount": 500
@@ -49,7 +53,8 @@
     "image_2": "./images/clothing-rec.png",
     "title": "Provide School Uniforms",
     "category": "clothing",
-    "category_bg_color": "green-200",
+    "category_bg_color": "green-100",
+    "category_btn_color": "green-200",
     "text_color": "green-400",
     "description": "Your donation will help provide uniforms and proper attire for students from low-income families.",
     "amount": 75   
@@ -60,7 +65,8 @@
     "image_2": "./images/clothing-rec.png",
     "title": "Outfit Children for Winter",
     "category": "clothing",
-    "category_bg_color": "green-200",
+    "category_bg_color": "green-100",
+    "category_btn_color": "green-200",
     "text_color": "green-400",
     "description": "Help us provide warm coats, hats, gloves and essential winter clothing for local kids in need.",
     "amount": 100
@@ -71,7 +77,8 @@
     "image_2": "./images/clothing-rec.png",
     "title": "Support Clothing Drives",
     "category": "clothing",
-    "category_bg_color": "green-200",
+    "category_bg_color": "green-100",
+    "category_btn_color": "green-200",
     "text_color": "green-400",
     "description": "Your contribution will help us hold clothing drives providing garments for thousands of people facing hardship.",
     "amount": 150
@@ -82,10 +89,11 @@
     "image_2": "./images/clothing-rec.png",
     "title": "Outfit Job Seekers",    
     "category": "clothing",
-    "category_bg_color": "green-200",  
+    "category_bg_color": "green-100", 
+    "category_btn_color": "green-200",
     "text_color": "green-400",
     "description": "Help provide professional attire for those re-entering the workforce so they can dress for success.",
-    "amount": 200
+    "amount": 100
   },
   {
     "id": 9,  
@@ -93,7 +101,8 @@
     "image_2": "./images/education-rec.png",
     "title": "Provide School Supplies",
     "category": "Education",
-    "category_bg_color": "red-200",
+    "category_bg_color": "red-100",
+    "category_btn_color": "red-200",
     "text_color": "red-400",
     "description": "Your donation will help provide pens, notebooks, backpacks and other essential supplies for students in need.",
     "amount": 100    
@@ -104,7 +113,8 @@
     "image_2": "./images/education-rec.png",
     "title": "Support Arts Education",
     "category": "Education",   
-    "category_bg_color": "red-200",
+    "category_bg_color": "red-100",
+    "category_btn_color": "red-200",
     "text_color": "red-400",
     "description": "Help us continue providing music, art and theater programs which are being cut from schools due to budget constraints.",
     "amount": 75
@@ -115,7 +125,8 @@
     "image_2": "./images/education-rec.png",
     "title": "Fund After-School Programs",
     "category": "Education",
-    "category_bg_color": "red-200",
+    "category_bg_color": "red-100",
+    "category_btn_color": "red-200",
     "text_color": "red-400",
     "description": "Your donation will help us operate critical after-school programs to support learning and keep kids safe.",
     "amount": 150
@@ -126,10 +137,11 @@
     "image_2": "./images/education-rec.png",
     "title": "Provide Internet Access",
     "category": "Education",
-    "category_bg_color": "red-200",
+    "category_bg_color": "red-100",
+    "category_btn_color": "red-200",
     "text_color": "red-400",
     "description": "Help connect low-income students to the internet and computer resources they need to succeed.",
-    "amount": 200
+    "amount": 100
   },
   {
     "id": 13,   
@@ -137,9 +149,10 @@
     "image_2": "./images/health-rec.png",
     "title": "Provide Medical Supplies",
     "category": "Health",
-    "category_bg_color": "blue-200",
+    "category_bg_color": "blue-100",
+    "category_btn_color": "blue-200",
     "text_color": "blue-400",
-    "description": "Your donation will help us distribute essential medical equipment and supplies to underserved clinics and hospitals.",
+    "description": "Your donation will help us distribute essential medical equipment and supplies to undeserved clinics and hospitals.",
     "amount": 150
   },
   {
@@ -148,7 +161,8 @@
     "image_2": "./images/health-rec.png",
     "title": "Support Health Education",
     "category": "Health",
-    "category_bg_color": "blue-200",
+    "category_bg_color": "blue-100",
+    "category_btn_color": "blue-200",
     "text_color": "blue-400",
     "description": "Help us provide health and wellness education programs focused on preventative care and healthy living.",
     "amount": 100    
@@ -159,9 +173,10 @@
     "image_2": "./images/health-rec.png",
     "title": "Fund Mobile Health Clinics",
     "category": "Health",
-    "category_bg_color": "blue-200",
+    "category_bg_color": "blue-100",
+    "category_btn_color": "blue-200",
     "text_color": "blue-400",
-    "description": "Your contribution will assist our mobile clinics delivering vital care to underserved neighborhoods and communities.",
+    "description": "Your contribution will assist our mobile clinics delivering vital care to undeserved neighborhoods and communities.",
     "amount": 250
   },
   {
@@ -170,9 +185,10 @@
     "image_2": "./images/health-rec.png",
     "title": "Provide Immunizations",
     "category": "Health",    
-    "category_bg_color": "blue-200",
+    "category_bg_color": "blue-100",
+    "category_btn_color": "blue-200",
     "text_color": "blue-400",  
     "description": "Help us fund free vaccination drives to improve immunity and public health across the region.",
-    "amount": 200
+    "amount": 100
   }
 ]
