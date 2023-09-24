@@ -6,6 +6,6 @@ import myRoute from "./Route/Route.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={myRouteyRoute}></RouterProvider>
+    <RouterProvider router={myRoute}></RouterProvider>
   </React.StrictMode>
 );
