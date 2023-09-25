@@ -1,8 +1,13 @@
-# React + Vite
+# Project Feature:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Fully Responsive-
 
-Currently, two official plugins are available:
+This Project is fully responsive for mobile, tablet, Desktop. I used tailwind CSS which is mobile first framework.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Functional Searchbox-
+
+In Homepage there's a searchbox with a button. Its fully functional. Searchbox value will search through the category names in if found it will show up. And if we search with blank data it will show all the data.
+
+## Dynamic Route-
+
+This project every components is dynamically routed. Title shows up on the title bar dynamically. In 2 layout pages the dynamically routing option is enabled.
