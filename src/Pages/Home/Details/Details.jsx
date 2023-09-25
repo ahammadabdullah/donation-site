@@ -30,13 +30,12 @@ const Details = () => {
     } else {
       const isExist = donationList.find((data) => data.id == id);
       if (!isExist) {
-        donationArr.push(...donationArr, data);
+        donationArr.push(...donationList, data);
         localStorage.setItem("donations", JSON.stringify(donationArr));
         swal("Good job!", "Donation Successful!", "success");
       } else {
         swal("Error!", "Already Donated!", "error");
       }
-      console.log(donationArr);
     }
   };
 
