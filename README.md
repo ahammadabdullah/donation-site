@@ -6,7 +6,7 @@ This Project is fully responsive for mobile, tablet, Desktop. I used tailwind CS
 
 ## Functional Searchbox-
 
-In Homepage there's a searchbox with a button. Its fully functional. Searchbox value will search through the category names in if found it will show up. And if we search with blank data it will show all the data.
+In the search bar, users can input categories to search for donations. When a category is entered into the search bar, clicking the search button will display only the donations that match the specified category on the homepage. And searching will blank field will return the all data.
 
 ## Dynamic Route-
 
