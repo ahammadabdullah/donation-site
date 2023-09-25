@@ -9,7 +9,6 @@ const Details = () => {
     const findData = allData?.find((data) => data.id == id);
     setData(findData);
   }, [id, allData]);
-  console.log(data);
   const { image_2, title, description, text_color, amount } = data;
   const btnStyle = {
     margin: "50px 40px",

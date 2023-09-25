@@ -8,7 +8,7 @@ const InputWithButton = () => {
           placeholder="Search Here "
         />
         <button
-          className="cursor-pointer !absolute right-1 top-1 z-10 select-none rounded bg-pink-600 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none "
+          className="cursor-pointer !absolute right-0 -top-0 z-10 rounded-e-md bg-pink-600 py-3 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none "
           type="button"
           data-ripple-light="true"
         >
