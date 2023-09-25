@@ -1,7 +1,19 @@
+import { useEffect } from "react";
 import Navbar from "../Components/Header/Navbar/Navbar";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 const SecondLayout = () => {
+  const loc = useLocation();
+  useEffect(() => {
+    if (loc.pathname === "/") {
+      document.title = "Donation Campaign";
+    } else {
+      document.title = loc.pathname.replace("/", " ");
+    }
+    if (loc.state) {
+      document.title = ` ${loc.state}`;
+    }
+  }, [loc.pathname, loc.state]);
   return (
     <div>
       <div className="pb-10">

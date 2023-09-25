@@ -1,7 +1,18 @@
-import { Outlet, useLoaderData } from "react-router-dom";
+import { Outlet, useLoaderData, useLocation } from "react-router-dom";
 import Header from "../Components/Header/Header";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 const MainLayout = () => {
+  const loc = useLocation();
+  useEffect(() => {
+    if (loc.pathname === "/") {
+      document.title = "Donation Campaign";
+    } else {
+      document.title = loc.pathname.replace("/", " ");
+    }
+    if (loc.state) {
+      document.title = ` ${loc.state}`;
+    }
+  }, [loc.pathname, loc.state]);
   const data = useLoaderData();
   const [results, setResults] = useState(data);
   const [query, setQuery] = useState();

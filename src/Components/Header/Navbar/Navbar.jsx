@@ -1,10 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="max-w-[1320px] mx-auto flex flex-col md:flex-row gap-10 items-center justify-between pt-10 sm:px-0 md:px-5 lg:px-0">
       <div>
-        <img src="/images/Logo.png" alt="" />
+        <Link to={"/"}>
+          <img src="/images/Logo.png" alt="" />
+        </Link>
       </div>
       <ul className="flex gap-10 font-bold text-xl">
         <li>
