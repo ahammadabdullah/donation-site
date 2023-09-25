@@ -1,6 +1,5 @@
 const DonatedCard = ({ data }) => {
   const {
-    id,
     image,
     title,
     category,

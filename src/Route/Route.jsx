@@ -10,6 +10,7 @@ const myRoute = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    loader: () => fetch("/Data.json"),
     children: [
       {
         path: "/",
