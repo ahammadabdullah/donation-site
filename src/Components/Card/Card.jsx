@@ -32,10 +32,10 @@ const Card = ({ data }) => {
   };
 
   return (
-    <div>
+    <div className="w-[312px] mx-auto">
       <Link to={`/home/${id}`}>
-        <div className="relative flex max-w-[312px] flex-col rounded-lg bg-white bg-clip-border text-gray-700 ">
-          <div className="relative m-0 overflow-hidden rounded-t-lg bg-transparent bg-clip-border text-gray-700 ">
+        <div className=" flex  flex-col rounded-lg bg-white bg-clip-border text-gray-700 ">
+          <div className=" m-0 overflow-hidden rounded-t-lg bg-transparent bg-clip-border text-gray-700 ">
             <img className="h-[194px]" src={image_2} alt={title} />
           </div>
           <div>
