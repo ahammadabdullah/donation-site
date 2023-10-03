@@ -15,7 +15,7 @@ const Piechart = () => {
   if (donationList) {
     myDonation = myDonation + donationList.length;
   }
-  const totalDonation = 20;
+  const totalDonation = 16;
   const data = [
     { name: "Total Donation", value: totalDonation },
     { name: "Your Donation", value: myDonation },
